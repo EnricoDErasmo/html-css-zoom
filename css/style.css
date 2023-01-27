@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.win-container{
+    height: 100vh;
+    
+    background-color: black;
+}
+
+.view{
+    height: calc(100vh - 80px);
+}
+
+.toolbar{
+    height: 80px;
+
+    background-color: #222222;
+}
