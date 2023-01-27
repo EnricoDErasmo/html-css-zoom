@@ -10,12 +10,21 @@
     background-color: black;
 }
 
+.view-container{
+    padding: 60px 60px 20px 60px;
+
+    height: calc(100vh - 60px);
+}
+
 .view{
-    height: calc(100vh - 80px);
+    background-color: aquamarine;
+    /* test */
+
+    height: 100% 
 }
 
 .toolbar{
-    height: 80px;
+    height: 60px;
 
     background-color: #222222;
 }
