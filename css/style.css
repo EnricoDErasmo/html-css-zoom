@@ -20,6 +20,9 @@
     background-color: aquamarine;
     /* test */
 
+    display: flex;
+    flex-wrap: wrap;
+
     height: 100% 
 }
 
@@ -27,4 +30,11 @@
     height: 60px;
 
     background-color: #222222;
+}
+
+.win-call{
+    border: 1px solid black;
+    /* test */
+
+    width: calc(100% / 7);
 }
