@@ -28,9 +28,6 @@ body{
 }
 
 .view{
-    background-color: aquamarine;
-    /* test */
-
     display: flex;
     flex-wrap: wrap;
 
@@ -38,10 +35,9 @@ body{
 }
 
 .win-call{
-    border: 1px solid black;
-    /* test */
-
     position: relative;
+
+    padding: 4px 2px;
     
     width: calc(100% / 7);
     height: calc(100% / 5);
