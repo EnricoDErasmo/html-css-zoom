@@ -40,10 +40,18 @@ body{
 .win-call{
     border: 1px solid black;
     /* test */
+
+    position: relative;
     
     width: calc(100% / 7);
+    height: calc(100% / 5);
+    min-width: 100px;
 }
 
+.win-call img{
+    height: 100%;
+    width: 100%;
+}
 
 /* Elementi position absolute */
 .view-type{
@@ -57,7 +65,7 @@ body{
     right: 2px;
 }
 
-.fa-solid, #sel-view-type, #sel-expand{
+.fa-solid.fa-expand, .fa-solid.fa-table-cells, #sel-view-type, #sel-expand{
     padding: 2px;
 
     font-size: 0.9em;
@@ -71,6 +79,18 @@ body{
     border-radius: 5px;
 }
 
+.id-call{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    padding: 4px;
+
+    font-size: 0.8em;
+
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
 
 /* Toolbar */
 
