@@ -4,8 +4,19 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Assets */
+
+
+/* Finestra video-call */
+
 .win-container{
     height: 100vh;
+
+    position: relative;
     
     background-color: black;
 }
@@ -26,15 +37,45 @@
     height: 100% 
 }
 
+.win-call{
+    border: 1px solid black;
+    /* test */
+    
+    width: calc(100% / 7);
+}
+
+
+/* Elementi position absolute */
+.view-type{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+    padding: 2px;
+
+    position: absolute;
+    right: 2px;
+}
+
+.fa-solid, #sel-view-type, #sel-expand{
+    padding: 2px;
+
+    font-size: 0.9em;
+
+    cursor: pointer;
+
+    background-color: #4a4a4a;
+    
+    color: white;
+
+    border-radius: 5px;
+}
+
+
+/* Toolbar */
+
 .toolbar{
     height: 60px;
 
     background-color: #222222;
-}
-
-.win-call{
-    border: 1px solid black;
-    /* test */
-
-    width: calc(100% / 7);
 }
