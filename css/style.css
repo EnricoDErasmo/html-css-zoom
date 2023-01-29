@@ -91,7 +91,63 @@ body{
 /* Toolbar */
 
 .toolbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
     height: 60px;
+
+    text-align: center;
+    line-height: 20px;
 
     background-color: #222222;
 }
+
+.toolbar .left-tool, .center-tool, .right-tool{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+    color: white;
+}
+
+.toolbar .tool{
+    font-size: 1.5em;
+
+    cursor: pointer;
+}
+
+.toolbar .fa-angle-up{
+    font-size: 0.5em;
+
+    cursor: pointer;
+}
+
+.toolbar .tool-name{
+    font-size: 0.6em;
+
+    cursor: pointer;
+}
+
+.toolbar .tool.green{
+    color: #4bc800;
+}
+
+#end-btn{
+    padding: 20px;
+
+    font-size: 0.7em;
+
+    cursor: pointer;
+
+    background-color: #4a4a4a;
+
+    color: #f70e24;
+}
+
+
+
