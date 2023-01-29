@@ -43,7 +43,7 @@ body{
     
     width: calc(100% / 7);
     height: calc(100% / 5);
-    min-width: 100px;
+    min-width: 180px;
 }
 
 .win-call img{
